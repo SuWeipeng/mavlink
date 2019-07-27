@@ -5,6 +5,12 @@
       <description>only one byte</description>
       <field name="data" type="uint8_t">data bit mask</field>
     </message>
+    <message id="1" name="TEST">
+      <description>test message</description>
+      <field name="data8" type="uint8_t">1 byte</field>
+      <field name="data16" type="uint16_t">2 byte</field>
+      <field name="data32" type="float">2 byte</field>
+    </message>
   </messages>
 </mavlink>
 
