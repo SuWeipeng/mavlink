@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<mavlink>
+  <messages>
+    <message id="0" name="SIMPLE">
+      <description>only one byte</description>
+      <field name="data" type="uint8_t">data bit mask</field>
+    </message>
+  </messages>
+</mavlink>
+
