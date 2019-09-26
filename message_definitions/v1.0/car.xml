@@ -9,7 +9,13 @@
       <description>test message</description>
       <field name="data8" type="uint8_t">1 byte</field>
       <field name="data16" type="uint16_t">2 byte</field>
-      <field name="data32" type="float">2 byte</field>
+      <field name="data32" type="float">4 byte</field>
+    </message>
+    <message id="2" name="VELOCITY">
+      <description>test message</description>
+      <field name="vel_x" type="float">m/s</field>
+      <field name="vel_y" type="float">m/s</field>
+      <field name="rad_z" type="float">rad/s</field>
     </message>
   </messages>
 </mavlink>
