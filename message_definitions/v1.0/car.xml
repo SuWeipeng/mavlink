@@ -17,6 +17,20 @@
       <field name="vel_y" type="float">m/s</field>
       <field name="rad_z" type="float">rad/s</field>
     </message>
+    <message id="12" name="PWM_RPM">
+      <description>pwm rpm test message</description>
+      <field name="rpm" type="float">Revolution(s) Per Minute</field>
+      <field name="pwm" type="int16_t"></field>
+    </message>
+    <message id="13" name="CMD">
+      <description>command message</description>
+      <field name="cmd" type="uint8_t"></field>
+    </message>
+    <message id="14" name="RPM">
+      <description>rpm test message</description>
+      <field name="rpm_target" type="float">TARGET-Revolution(s) Per Minute</field>
+      <field name="rpm" type="float">MEASUREMENT-Revolution(s) Per Minute</field>
+    </message>
   </messages>
 </mavlink>
 
