@@ -28,6 +28,7 @@
     </message>
     <message id="14" name="RPM">
       <description>rpm test message</description>
+      <field name="tick" type="uint32_t"></field>
       <field name="rpm_target" type="float">TARGET-Revolution(s) Per Minute</field>
       <field name="rpm" type="float">MEASUREMENT-Revolution(s) Per Minute</field>
     </message>
