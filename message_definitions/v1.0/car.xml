@@ -32,6 +32,15 @@
       <field name="rpm_target" type="float">TARGET-Revolution(s) Per Minute</field>
       <field name="rpm" type="float">MEASUREMENT-Revolution(s) Per Minute</field>
     </message>
+    <message id="15" name="IMU">
+      <description>accel and gyro data</description>
+      <field name="ax" type="int16_t">unit: mg</field>
+      <field name="ay" type="int16_t">unit: mg</field>
+      <field name="az" type="int16_t">unit: mg</field>
+      <field name="gx" type="int16_t">unit: deg/10ms</field>
+      <field name="gy" type="int16_t">unit: deg/10ms</field>
+      <field name="gz" type="int16_t">unit: deg/10ms</field>
+    </message>
   </messages>
 </mavlink>
 
