@@ -34,12 +34,18 @@
     </message>
     <message id="15" name="IMU">
       <description>accel and gyro data</description>
+      <field name="tick" type="uint32_t"></field>
       <field name="ax" type="int16_t">unit: mg</field>
       <field name="ay" type="int16_t">unit: mg</field>
       <field name="az" type="int16_t">unit: mg</field>
       <field name="gx" type="int16_t">unit: deg/10ms</field>
       <field name="gy" type="int16_t">unit: deg/10ms</field>
       <field name="gz" type="int16_t">unit: deg/10ms</field>
+    </message>
+    <message id="16" name="MODE">
+      <description>accel and gyro data</description>
+      <field name="mode" type="uint8_t">Mode::Number</field>
+      <field name="reason" type="uint8_t">Mode::ModeReason</field>
     </message>
   </messages>
 </mavlink>
