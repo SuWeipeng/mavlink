@@ -16,6 +16,9 @@
       <field name="vel_x" type="float">m/s</field>
       <field name="vel_y" type="float">m/s</field>
       <field name="rad_z" type="float">rad/s</field>
+      <field name="ext_1" type="float">rad/s</field>
+      <field name="ext_2" type="float">rad/s</field>
+      <field name="ext_3" type="uint32_t">rad/s</field>
     </message>
     <message id="12" name="PWM_RPM">
       <description>pwm rpm test message</description>
